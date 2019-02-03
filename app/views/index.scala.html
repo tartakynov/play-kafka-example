@@ -2,14 +2,15 @@
 
 <html lang="en">
 <head>
-    <title>Play Kafka Example</title>
-    <script>
+  <title>Play Kafka Example</title>
+  <script>
         var websocket = new WebSocket("@wsUrl");
         websocket.onmessage = function(event) {
             var out = document.getElementById("out");
             out.textContent = event.data;
         }
-    </script>
+
+  </script>
 </head>
 <body>
 <span id="out">Connecting to @wsUrl...</span>
