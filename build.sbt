@@ -8,5 +8,6 @@ scalaVersion := "2.12.8"
 
 // Library dependencies
 libraryDependencies ++= Seq(
-  guice
+  guice,
+  "com.typesafe.akka" %% "akka-stream-kafka" % "1.0-RC1"
 )
