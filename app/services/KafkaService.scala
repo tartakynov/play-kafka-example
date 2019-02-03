@@ -1,7 +1,7 @@
 package services
 
 import akka.stream.scaladsl._
-import com.google.inject.{ImplementedBy, Inject, Singleton}
+import com.google.inject._
 import play.api.Configuration
 
 import scala.util.{Success, Try}

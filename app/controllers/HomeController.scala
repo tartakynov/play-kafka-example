@@ -1,7 +1,7 @@
 package controllers
 
 import akka.stream.scaladsl._
-import com.google.inject.Inject
+import com.google.inject._
 import play.api.mvc._
 import services.KafkaService
 
